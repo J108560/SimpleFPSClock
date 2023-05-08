@@ -171,7 +171,7 @@ namespace SimpleFPSClock
             coloredFPSCheckbox.tooltip = "Set to show value in red, yellow, green";
             fpsSettings.AddSpace(5);
             bool btnFPSTextSuffix = SimpleFPSClockConfiguration.Instance.FPSTextSuffix;
-            UICheckBox suffixFPSCheckbox = fpsSettings.AddCheckbox("Show value suffix", btnFPSTextSuffix, delegate (bool selFPSTextSuffix)
+            UICheckBox suffixFPSCheckbox = fpsSettings.AddCheckbox("Show value suffix \"FPS\"", btnFPSTextSuffix, delegate (bool selFPSTextSuffix)
             {
                 SimpleFPSClockConfiguration.Instance.FPSTextSuffix = selFPSTextSuffix;
                 SimpleFPSClockConfiguration.Instance.Save();
