@@ -196,10 +196,5 @@ namespace SimpleFPSClock
             }
             return num;
         }
-        //public static void ShowMessage(string message)
-        //{
-        //    DebugOutputPanel.AddMessage(ColossalFramework.Plugins.PluginManager.MessageType.Message, message);
-        //    DebugOutputPanel.Show();
-        //}
     }
 }
