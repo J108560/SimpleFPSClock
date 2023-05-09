@@ -2,8 +2,6 @@
 using ICities;
 using System;
 using System.Reflection;
-using UnityEngine;
-using static ItemClass;
 
 namespace SimpleFPSClock
 {
